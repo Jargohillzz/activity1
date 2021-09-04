@@ -1,0 +1,270 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "open sans", sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.6;
+}
+
+.row {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+}
+
+header {
+  width: 100%;
+  height: 120vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  color: white;
+  padding: 60px;
+  background-image: url(../images/banner.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-heading {
+  font-family: "playfair display", serif;
+  font-size: 6rem;
+  font-style: italic;
+  padding: 0 2rem;
+}
+
+.banner-text {
+  font-size: 0.9rem;
+  font-weight: normal;
+  background-color: white;
+  padding: 30px;
+  color: black;
+}
+.anon-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 100px 180px;
+  background-color: #d9b1b3;
+  color: white;
+}
+
+.anon {
+  font-family: "playfair display", serif;
+  font-style: italic;
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.anon span {
+  font-size: 6rem;
+  line-height: 0;
+}
+
+.anon-section p {
+  font-size: 0.9rem;
+  width: 50%;
+}
+
+.gallery,
+.spring-img {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.gallery .img-container {
+  display: flex;
+  overflow: hidden;
+}
+.gallery .img-container img {
+  height: 500px;
+  width: 500px;
+  object-fit: cover;
+}
+
+.coming-section,
+.spring-section {
+  text-align: center;
+  background-color: #d9b1b3;
+  color: white;
+}
+.coming-section h1,
+.spring-section h1 {
+  font-family: "playfair display", serif;
+  font-size: 4rem;
+  font-style: italic;
+  padding-top: 40px;
+}
+.coming-section .follow-form {
+  padding: 50px;
+}
+.coming-section .follow-form input {
+  width: 250px;
+  height: 50px;
+  border: none;
+  border-radius: 25px;
+}
+.coming-section .follow-form input::placeholder {
+  padding-left: 10px;
+  font-weight: lighter;
+  font-size: 15px;
+}
+.coming-section .follow-form button {
+  width: 150px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+.article-section,
+.sample-section {
+  display: flex;
+  flex-direction: row;
+  padding: 60px 120px;
+  gap: 15px;
+}
+.article-section .article-img {
+  width: 40%;
+}
+.article-section .article-img img {
+  width: 350px;
+}
+.article-section .article-text {
+  width: 60%;
+  text-align: justify;
+  margin: auto;
+}
+.article-section .article-text .sign {
+  font-family: "Kristi", cursive;
+  color: #d9b1b3;
+  font-style: italic;
+  font-size: 50px;
+  margin-top: 30px;
+}
+.spring-img {
+  width: fit-content;
+  margin: auto;
+}
+.spring-img img {
+  width: 280px;
+  height: 400px;
+  object-fit: cover;
+  padding: 5px;
+}
+.arrow-right {
+  width: 60px;
+  padding: 20px 0;
+}
+.sample-section .shoe {
+}
+.sample-section .shoe img {
+  width: 280px;
+  height: 350px;
+}
+.sample-section .sample-text {
+  padding-left: 40px;
+  margin: auto;
+}
+.sample-section .sample-text h1 {
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
+.sample-section .sample-text h2 {
+  padding-left: 5px;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.sample-section .sample-text p {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.sample-section .sample-text button {
+  background-color: black;
+  color: white;
+  border: none;
+  width: 230px;
+  height: 50px;
+  border-radius: 25px;
+  margin: 10px;
+}
+.social-icons {
+  padding: 20px 0;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.social-icons .fab {
+  padding: 0 15px;
+  font-size: 35px;
+  color: black;
+}
+.sub-section {
+  display: flex;
+  flex-direction: row;
+}
+.sub-section .sub-image {
+  width: 50%;
+}
+.sub-section .sub-image img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+.sub-section .sub-text {
+  width: 50%;
+  text-align: center;
+  margin-top: 150px;
+  padding-left: 20px;
+}
+
+.sub-section .sub-text hr {
+  border: none;
+  height: 15px;
+  background-color: #d9b1b3;
+  margin: 0px;
+}
+.sub-section .sub-text h1 {
+  font-family: "playfair display", serif;
+  font-size: 4rem;
+  font-style: italic;
+  padding-top: 0px;
+  margin-bottom: 40px;
+}
+.sub-section .sub-text .sub-form {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  text-align: center;
+  justify-content: center;
+}
+.sub-section .sub-text .sub-form input {
+  width: 250px;
+  height: 50px;
+}
+.sub-section .sub-text .sub-form input::placeholder {
+  padding-left: 10px;
+}
+.sub-section .sub-text .sub-button button {
+  background-color: black;
+  color: white;
+  border: none;
+  width: 120px;
+  height: 50px;
+  border-radius: 25px;
+  margin: 20px;
+}
+.sub-section .sub-text p {
+  font-size: 15px;
+}
+.sub-section .sub-text .social-icons i {
+  font-size: 24px;
+  font-weight: bolder;
+}
