@@ -27,7 +27,7 @@ header {
   align-items: flex-end;
   color: white;
   padding: 60px;
-  background-image: url(../images/banner.jpeg);
+  background-image: url(https://i.postimg.cc/jjNWFMF1/banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -159,8 +159,8 @@ header {
   object-fit: cover;
   padding: 5px;
 }
-.arrow-right {
-  width: 60px;
+.spring-section i {
+  width: 100px;
   padding: 20px 0;
 }
 .sample-section .shoe {
